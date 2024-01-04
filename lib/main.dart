@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
                 child: Container(
                   child: CircleAvatar(
                     radius: 50,
-                    backgroundImage: AssetImage('assets/images/me.jpg'),
+                    backgroundImage: AssetImage('lib/assets/pande.jpg'),
                   ),
                 ),
               ),
@@ -94,7 +94,7 @@ class MyApp extends StatelessWidget {
                             children: [
                               Padding(
                                 padding: const EdgeInsets.only(top: 5),
-                                child: Text("HTML",
+                                child: Text("Disign",
                                     style: TextStyle(
                                         color: Colors.black.withOpacity(0.5))),
                               )
@@ -122,7 +122,7 @@ class MyApp extends StatelessWidget {
                             children: [
                               Padding(
                                 padding: const EdgeInsets.only(top: 5),
-                                child: Text("CSS",
+                                child: Text("Geming",
                                     style: TextStyle(
                                         color: Colors.black.withOpacity(0.5))),
                               )
@@ -150,7 +150,7 @@ class MyApp extends StatelessWidget {
                             children: [
                               Padding(
                                 padding: const EdgeInsets.only(top: 5),
-                                child: Text("JavaScript",
+                                child: Text("Fotografer",
                                     style: TextStyle(
                                         color: Colors.black.withOpacity(0.5))),
                               )
@@ -228,7 +228,7 @@ class MyApp extends StatelessWidget {
                               padding: const EdgeInsets.all(5.0),
                               child: Icon(
                                 Icons.tiktok,
-                                color: Colors.blueAccent,
+                                color: Colors.black,
                                 size: 20.0,
                               ),
                             ),
@@ -254,4 +254,3 @@ class MyApp extends StatelessWidget {
 );
 }
 }
-
